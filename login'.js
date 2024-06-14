@@ -5,12 +5,6 @@ export default function Login2() {
   return (
     <View style={styles.Login2}>
       <View style={styles.Group010}>
-        <Image
-          style={styles.StatusBarIphoneXOrNewer}
-          source={{
-            uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/e1ipfvnr6xb-1%3A133?alt=media&token=dce76b62-2ad4-42e1-8050-5bbf7fbf9269",
-          }}
-        />
         <Text style={styles.Qinfox}>QINFOX</Text>
         <View style={styles.Content}>
           <View style={styles.Copy}>
@@ -42,12 +36,6 @@ export default function Login2() {
             Policy
           </Text>
         </View>
-        <Image
-          style={styles.HomeIndicator}
-          source={{
-            uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/e1ipfvnr6xb-1%3A108?alt=media&token=42c7955d-2cc1-45d7-97b1-ee9c19561a12",
-          }}
-        />
       </View>
     </View>
   )
@@ -71,10 +59,6 @@ const styles = StyleSheet.create({
     width: "100%",
     height: "100%",
     boxSizing: "border-box",
-  },
-  StatusBarIphoneXOrNewer: {
-    width: "100%",
-    height: 44,
   },
   Qinfox: {
     display: "flex",
@@ -251,9 +235,5 @@ const styles = StyleSheet.create({
     fontFamily: "Inter, sans-serif",
     fontWeight: "400",
     textAlign: "center",
-  },
-  HomeIndicator: {
-    width: "100%",
-    height: 34,
   },
 })
