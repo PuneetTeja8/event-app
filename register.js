@@ -1,16 +1,10 @@
-import React from "react";
-import { StyleSheet, Image, Text, View, ImageBackground } from "react-native";
+import React from "react"
+import { StyleSheet, Image, Text, View, ImageBackground } from "react-native"
 
 export default function Group1() {
   return (
     <View style={styles.Group1}>
       <View style={styles.Register}>
-        <Image
-          style={styles.StatusBarIphoneXOrNewer}
-          source={{
-            uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/homiffgn8jl-3%3A106?alt=media&token=2a0f76fe-c236-4ae1-8241-94392a6d51f6",
-          }}
-        />
         <Text style={styles.Qinfox}>QINFOx</Text>
         <View style={styles.Content}>
           <View style={styles.Copy}>
@@ -48,15 +42,9 @@ export default function Group1() {
             Policy
           </Text>
         </View>
-        <Image
-          style={styles.HomeIndicator}
-          source={{
-            uri: "https://firebasestorage.googleapis.com/v0/b/unify-v3-copy.appspot.com/o/homiffgn8jl-3%3A87?alt=media&token=73a0cd0f-c9b3-4649-aab1-0f2665fb526b",
-          }}
-        />
       </View>
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -74,10 +62,6 @@ const styles = StyleSheet.create({
     height: "100%",
     boxSizing: "border-box",
     backgroundColor: "rgba(255,255,255,1)",
-  },
-  StatusBarIphoneXOrNewer: {
-    width: "100%",
-    height: 44,
   },
   Qinfox: {
     display: "flex",
@@ -306,8 +290,4 @@ const styles = StyleSheet.create({
     fontWeight: "400",
     textAlign: "center",
   },
-  HomeIndicator: {
-    width: "100%",
-    height: 34,
-  },
-});
+})
